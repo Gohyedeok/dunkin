@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 전화설정 -->
+    <meta name="format-detection" content="telephone=no" />
+    <!-- 반응형 -->
+    <meta name="viewport"
+        content="user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="/dunkin/img/icon/logo_ghd.png" id="favicon"
+        data-original-href="/dunkin/img/icon/logo_ghd.svg" />
+    <!-- 바로가기 아이콘 -->
+    <link rel="apple-touch-icon" href="/dunkin/img/icon/logo_ghd.svg">
+
+
+    <title>던킨도너츠 - 고혜덕 영상활용 UI/UX 웹퍼블리셔</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KDF1R6G0D"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-1KDF1R6G0D');
+    </script>
+    <meta name="description" content="웹퍼블리셔 고혜덕 던킨도너츠 포트폴리오 입니다." />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:site_name" content="고혜덕 포트폴리오 - Dunkin" />
+    <meta property="og:url" content="//hyedeok.dothome.co.kr" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="고혜덕 포트폴리오 - Dunkin" />
+    <meta property="og:description" content="웹퍼블리셔 고혜덕 던킨도너츠 포트폴리오 입니다." />
+    <meta property="og:image" content="//hyedeok.dothome.co.kr/dunkin/img/linkImg.png" />
+
+
+    <link rel="stylesheet" href="/dunkin/css/reset.css">
+    <link rel='stylesheet' href="/dunkin/css/swiper.min.css">
+    <link rel="stylesheet" href="/dunkin/css/font.css">
+    <link rel="stylesheet" href="/dunkin/css/default.css?ver=<?php echo time(); ?>">
+    <link rel="stylesheet" href="/dunkin/css/header.css?ver=<?php echo time(); ?>">
+    <link rel="stylesheet" href="/dunkin/css/slide.css?ver=<?php echo time(); ?>">
+    <link rel="stylesheet" href="/dunkin/css/menu.css?ver=<?php echo time(); ?>">
+    <link rel="stylesheet" href="/dunkin/css/event.css?ver=<?php echo time(); ?>">
+    <link rel="stylesheet" href="/dunkin/css/service.css?ver=<?php echo time(); ?>">
+    <link rel="stylesheet" href="/dunkin/css/sns.css?ver=<?php echo time(); ?>">
+    <link rel="stylesheet" href="/dunkin/css/footer.css?ver=<?php echo time(); ?>">
+    <link href="//db.onlinewebfonts.com/c/ac78111d5e1e6dc73eb1aaf06ec60963?family=Debussy" rel="stylesheet"
+        type="text/css" />
+    <link href="//db.onlinewebfonts.com/c/0a6ee448d1bd65c56f6cf256a7c6f20a?family=Bahnschrift" rel="stylesheet"
+        type="text/css" />
+    <script src="/dunkin/js/swiper.min.js"></script>
+    <script src="/dunkin/js/jquery-2.1.1.min.js"></script>
+    <script src="/dunkin/js/toggle.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <?php include_once('header.html'); ?>
+
+        <figure class="figure_slider">
+
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide one">
+                        <img src="/dunkin/img/banner/main_banner_01.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide two">
+
+                        <video autoplay loop muted id="video-background" id="player_1">
+                            <source src="/dunkin/video/dunkin_main.mp4">
+                        </video>
+                    </div>
+                </div>
+
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </figure>
+
+        <section class="content">
+            <section class="menu_section">
+                <div class="container clearfix">
+                    <h2 class="sec_tit">MENU</h2>
+                    <p class="desc">던킨도너츠의 다양한 음료와 도넛들</p>
+
+                    <ul class="menu_list clearfix">
+                        <li>
+                            <a href="#" onclick="return false">
+                                <img src="/dunkin/img/donut/img_product_01.png" alt="">
+                                <h3>Donut</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false">
+                                <img src="/dunkin/img/donut/img_product_02.png" alt="">
+                                <h3>Coffee</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false">
+                                <img src="/dunkin/img/donut/img_product_03.png" alt="">
+                                <h3>Sandwich</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false">
+                                <img src="/dunkin/img/donut/img_product_04.png" alt="">
+                                <h3>Beverage</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false">
+                                <img src="/dunkin/img/donut/img_product_05.png" alt="">
+                                <h3>Others</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="event_section">
+                <h2 class="sec_tit con">NEW & EVENT</h2>
+                <p class="desc">던킨도너츠의 다양한 혜택과 이벤트 그리고 신제품</p>
+                <ul class="event_list clearfix">
+                    <li>
+                        <a href="#" onclick="return false">
+                            <div class="event_box">
+                                <div class="img_box">
+                                    <img src="/dunkin/img/contents/img_event_01.jpg" alt="">
+                                </div>
+
+                                <div class="event_info">
+                                    <h4>핫샌드위치 콤보</h4>
+                                    <p class="event_date">2020-10-20 ~ 2021-12-31</p>
+                                    <p class="event_desc">하루종일 1,000원 추가시 콤보음료 제공!</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="return false">
+                            <div class="event_box">
+                                <div class="img_box">
+                                    <img src="/dunkin/img/contents/img_event_02.jpg" alt="">
+                                </div>
+                                <div class="event_info">
+                                    <h4>4월 이달의 도넛 1개 FREE</h4>
+                                    <p class="event_date">2021-04-04 ~ 2021-04-08</p>
+                                    <p class="event_desc">커피/음료 구매하고 쿠폰을 제시하면 다이제 크럼블 1개 FREE!</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="return false">
+                            <div class="event_box">
+                                <div class="img_box">
+                                    <img src="/dunkin/img/contents/img_event_03.jpg" alt="">
+                                </div>
+                                <div class="event_info">
+                                    <h4>햅모닝</h4>
+                                    <p class="event_date">2021-04-05 ~ 2021-04-26</p>
+                                    <p class="event_desc">햅모닝 최대 30% OFF</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="return false">
+                            <div class="event_box">
+                                <div class="img_box">
+                                    <img src="/dunkin/img/contents/img_event_04.jpg" alt="">
+                                </div>
+                                <div class="event_info">
+                                    <h4>DUNKIN X 어몽어스</h4>
+                                    <p class="event_date">2021-04-05 ~ 소진시까지</p>
+                                    <p class="event_desc">어몽어스 키링 에코백 3,900원</p>
+                                </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="return false">
+                            <div class="event_box">
+                                <div class="img_box">
+                                    <img src="/dunkin/img/contents/img_event_05.jpg" alt="">
+                                </div>
+                                <div class="event_info">
+                                    <h4>도넛프라이데이 해피마켓</h4>
+                                    <p class="event_date">2021-03-01 ~ 2021-06-30</p>
+                                    <p class="event_desc">해피마켓 도넛프라이데이 온라인 프로모션!</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="return false">
+                            <div class="event_box">
+                                <div class="img_box">
+                                    <img src="/dunkin/img/contents/img_event_06.jpg" alt="">
+                                </div>
+                                <div class="event_info">
+                                    <h4>DUNKIN’ TONIGHT</h4>
+                                    <p class="event_date">2020-12-18 ~ 2021-12-31</p>
+                                    <p class="event_desc">띵동~ 한밤에 찾아오는 던킨! 한밤 중 즐기는 던킨 투나잇</p>
+                                </div>
+                            </div>
+
+
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="service_section">
+                <div class="service_bg">
+                    <div class="container">
+                        <h2 class="sec_tit">SERVICE</h2>
+                        <p class="desc">던킨도너츠에서 제공하는 다양한 서비스</p>
+                        <ul class="service_list clearfix">
+                            <li>
+                                <a href="#" onclick="return false">
+                                    <img src="/dunkin/img/contents/service_happyorder.jpg" alt="">
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" onclick="return false">
+                                    <img src="/dunkin/img/contents/service_findstore.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" onclick="return false">
+                                    <img src="/dunkin/img/contents/service_catering.jpg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="sns_section">
+                <h2 class="sec_tit con">SNS</h2>
+                <p class="desc">던킨도너츠와 함께하는 SNS</p>
+                <ul class="sns_list clearfix">
+                    <li>
+                        <a href="#" onclick="return false">
+
+                            <div class="info clearfix">
+                                <div class="wish clearfix">
+                                    <img src="/dunkin/img/icon/icon_wish.png" alt="">
+                                    <span>2,250</span>
+                                </div>
+                                <div class="comment clearfix">
+                                    <img src="/dunkin/img/icon/icon_comment.png" alt="">
+                                    <span>83</span>
+                                </div>
+                            </div>
+                            <img src="/dunkin/img/sns/1.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="return false">
+                            <img src="/dunkin/img/sns/2.jpg" alt="">
+                            <div class="info clearfix">
+                                <div class="wish clearfix">
+                                    <img src="/dunkin/img/icon/icon_wish.png" alt="">
+                                    <span>12</span>
+                                </div>
+                                <div class="comment clearfix">
+                                    <img src="/dunkin/img/icon/icon_comment.png" alt="">
+                                    <span>10</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="return false">
+                            <img src="/dunkin/img/sns/3.jpg" alt="">
+                            <div class="info clearfix">
+                                <div class="wish clearfix">
+                                    <img src="/dunkin/img/icon/icon_wish.png" alt="">
+                                    <span>115</span>
+                                </div>
+                                <div class="comment clearfix">
+                                    <img src="/dunkin/img/icon/icon_comment.png" alt="">
+                                    <span>58</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="return false">
+                            <img src="/dunkin/img/sns/4.jpg" alt="">
+                            <div class="info clearfix">
+                                <div class="wish clearfix">
+                                    <img src="/dunkin/img/icon/icon_wish.png" alt="">
+                                    <span>26</span>
+                                </div>
+                                <div class="comment clearfix">
+                                    <img src="/dunkin/img/icon/icon_comment.png" alt="">
+                                    <span>15</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="return false">
+                            <img src="/dunkin/img/sns/5.jpg" alt="">
+                            <div class="info clearfix">
+                                <div class="wish clearfix">
+                                    <img src="/dunkin/img/icon/icon_wish.png" alt="">
+                                    <span>1,024</span>
+                                </div>
+                                <div class="comment clearfix">
+                                    <img src="/dunkin/img/icon/icon_comment.png" alt="">
+                                    <span>504</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="return false">
+                            <img src="/dunkin/img/sns/6.jpg" alt="">
+                            <div class="info clearfix">
+                                <div class="wish clearfix">
+                                    <img src="/dunkin/img/icon/icon_wish.png" alt="">
+                                    <span>2,083</span>
+                                </div>
+                                <div class="comment clearfix">
+                                    <img src="/dunkin/img/icon/icon_comment.png" alt="">
+                                    <span>860</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+        </section>
+        <footer class="footer">
+            <hr class="top_divider">
+            <div class="container">
+                <ul class="footer_top clearfix">
+                    <li><a href="#" onclick="return false">이용약관</a></li>
+                    <li><a href="#" onclick="return false">개인정보처리방침</a></li>
+                    <li><a href="#" onclick="return false">이메일무단수집거부</a></li>
+                    <li><a href="#" onclick="return false">채용안내</a></li>
+                </ul>
+                <hr class="bottom_divider">
+                <div class="footer_bottom clearfix">
+                    <div class="footer_logo">
+                        <img src="/dunkin/img/icon/footer_logo.png" alt="">
+                    </div>
+                    <div class="footer_info">
+                        <p>서울특별시 서초구 남부순환로 2620(양재동 11-149번지 &nbsp; TEL: 080-555-3131</p>
+                        <p>COPYRIGHTⓒ 2016 BRKOREA COMPANY. ALL RIGHTS RESERVED.</p>
+                    </div>
+                    <a href="#" class="familysite"><img src="/dunkin/img/icon/familySite.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            autoHeight: true,
+            speed: 400,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            keyboard: true,
+
+        });
+
+    </script>
+
+</body>
+
+</html>

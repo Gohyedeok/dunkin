@@ -1,0 +1,77 @@
+.menu_section{margin: 100px 0; text-align: center;}
+.menu_section .sec_tit{
+    margin-bottom: 25px;
+}
+.menu_list{
+    margin: 30px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+.menu_list li{
+    margin-bottom: 10px;
+    text-align: center;
+    width: 49%;
+    margin-right: 2%;
+    float: left;
+    text-align: center;
+}
+.menu_list li:nth-child(2n){
+    margin-right: 0;
+}
+.menu_list li a:hover img{
+    animation: bounce .3s infinite alternate;
+}
+.menu_list li a img{
+    height: 100px;
+}
+.menu_list li a h3{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    color: #000;
+    font: 500 18px 'Bahnschrift';
+}
+
+@keyframes bounce{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-15px);
+    }
+}
+
+
+/* tablet */
+@media all and (min-width:768px){
+    .menu_section .sec_tit{
+        margin-bottom: 35px;
+    }
+    .menu_list{
+        margin: 60px 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .menu_list li{
+        width: 18.4%;
+        margin-right: 2%;
+        float: left;
+        text-align: center;
+    }
+    .menu_list li:nth-child(2n){
+        margin-right: 2%;
+    }
+    .menu_list li:last-child{
+        margin-right: 0;
+    }
+    .menu_list li a h3{
+        font: 500 20px 'Bahnschrift';
+    }
+    
+}
+
+/* pc */
+@media all and (min-width:1132px){
+
+}
+

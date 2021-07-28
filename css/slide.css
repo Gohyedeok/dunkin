@@ -1,0 +1,54 @@
+.swiper-container{
+    width: 100%;
+    height: auto;
+}
+
+.swiper-wrapper{
+    width:100%; height:auto; background-color: #fff; 
+}
+.swiper-slide {
+    display: block;
+    position: relative;
+    width: 100vw;
+    min-width: 100%;
+    height: auto;
+}
+
+.swiper-slide.one{
+    background:url(/dunkin/img/banner/main_banner_01.jpg) no-repeat top right; background-size: cover;
+
+}
+.swiper-slide.one>img{
+    width: 100%;
+    display: block;
+}
+
+.swiper-slide  #video-background{
+    display: block;
+    position: relative;
+    width: 100vw;
+    min-width: 100%;
+    height: auto;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #fff;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 24px;
+}
+@media all and (min-width:768px){
+
+    .swiper-slide.one{background:url(/dunkin/img/banner/main_banner_01.jpg) no-repeat 0 0; background-size: cover;}
+    .swiper-button-prev, .swiper-button-next {
+        margin: 0 10px;
+        transform: translate(0, -50%);
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-size: 44px;
+    }
+
+}

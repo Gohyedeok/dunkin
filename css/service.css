@@ -1,0 +1,56 @@
+.service_section{
+    margin: 100px 0;
+  
+}
+.service_bg{
+    background: url(../img/contents/service_bg.png) no-repeat bottom;
+    position: relative;
+    bottom: 0; left: 0;
+    background-size: 0;
+}
+
+.service_list li{
+    width: 100%;
+    /* margin-top: 50px; */ 
+}
+.service_list li a{
+    display: block;
+}
+.service_list li a >img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* tablet */
+@media all and (min-width:768px){   
+    .service_list li{
+        float: left;
+        width: 49%;
+    }
+    .service_list li:nth-child(1){
+        margin-right: 2%;
+    }
+    .service_list li:nth-child(2){
+        margin-bottom: 1.5%;
+    }
+}
+
+/* pc */
+@media all and (min-width:1132px){
+    .service_list li{
+        float: left;
+        width: 49%;
+    }
+    .service_list li:nth-child(1){
+        margin-right: 2%;
+    }
+    .service_list li:nth-child(2){
+        margin-bottom: 1.5%;
+    }
+    .service_bg{
+        background-size: cover;
+    }
+   
+}
